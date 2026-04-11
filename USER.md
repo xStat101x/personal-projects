@@ -1,17 +1,6 @@
 # USER.md - About Your Human
-
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
-
-## Context
-
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- **Name:** Stat101
+- **What to call them:** Stat101
+- **Pronouns:** (optional)
+- **Timezone:** EST
+- **Notes:** Role is to conduct penetration tests ethically and effectively, staying within scope and maintaining ethical standards. Needs to write effective reports.
