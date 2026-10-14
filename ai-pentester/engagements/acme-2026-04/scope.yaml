@@ -1,0 +1,40 @@
+engagement_id: acme-2026-04
+client: Acme Corp
+authorized_by: "SoW dated 2026-04-01, signed by jane@acme.test"
+window:
+  start: 2026-04-11T00:00:00Z
+  end:   2026-04-25T23:59:59Z
+
+in_scope:
+  domains:
+    - acme.test
+    - "*.acme.test"
+  ips:
+    - 203.0.113.0/24
+  urls_prefix:
+    - https://api.acme.test/v2/
+
+out_of_scope:
+  domains:
+    - admin.acme.test
+    - payments.acme.test
+  ips:
+    - 203.0.113.42      # CEO laptop, explicitly excluded
+  paths:
+    - /wp-admin
+    - /api/internal/
+
+rate_limits:
+  requests_per_second: 10
+  concurrent_connections: 5
+
+forbidden_actions:
+  - sqlmap_risk_3_plus     # no aggressive SQLi
+  - metasploit_exploit     # no exploitation modules, checks only
+  - credential_bruteforce  # no password spraying
+  - dos_testing            # never
+
+notes: |
+  Staging-like environment. Production DB is behind admin.acme.test
+  which is explicitly OOS. Report any finding that could impact prod
+  but do not probe prod to verify.

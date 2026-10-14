@@ -1,0 +1,15 @@
+[submodule "corpus/CheatSheetSeries"]
+	path = corpus/CheatSheetSeries
+	url = https://github.com/OWASP/CheatSheetSeries.git
+[submodule "corpus/nuclei-templates"]
+	path = corpus/nuclei-templates
+	url = https://github.com/projectdiscovery/nuclei-templates.git
+[submodule "corpus/hacktricks"]
+	path = corpus/hacktricks
+	url = https://github.com/HackTricks-wiki/hacktricks.git
+[submodule "corpus/wstg"]
+	path = corpus/wstg
+	url = https://github.com/OWASP/wstg.git
+[submodule "corpus/PayloadsAllTheThings"]
+	path = corpus/PayloadsAllTheThings
+	url = https://github.com/swisskyrepo/PayloadsAllTheThings.git
