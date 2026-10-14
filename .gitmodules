@@ -1,0 +1,15 @@
+[submodule "ai-pentester/corpus/CheatSheetSeries"]
+	path = ai-pentester/corpus/CheatSheetSeries
+	url = https://github.com/OWASP/CheatSheetSeries.git
+[submodule "ai-pentester/corpus/nuclei-templates"]
+	path = ai-pentester/corpus/nuclei-templates
+	url = https://github.com/projectdiscovery/nuclei-templates.git
+[submodule "ai-pentester/corpus/hacktricks"]
+	path = ai-pentester/corpus/hacktricks
+	url = https://github.com/HackTricks-wiki/hacktricks.git
+[submodule "ai-pentester/corpus/wstg"]
+	path = ai-pentester/corpus/wstg
+	url = https://github.com/OWASP/wstg.git
+[submodule "ai-pentester/corpus/PayloadsAllTheThings"]
+	path = ai-pentester/corpus/PayloadsAllTheThings
+	url = https://github.com/swisskyrepo/PayloadsAllTheThings.git
